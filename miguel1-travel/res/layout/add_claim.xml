@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/date_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/date_from"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/date_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/date_to"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="31dp"
+        android:layout_marginLeft="38dp"
+        android:ems="10"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/Destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/date_from"
+        android:layout_alignLeft="@+id/date_from"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/trip_reason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/date_to"
+        android:layout_below="@+id/date_to"
+        android:layout_marginTop="49dp"
+        android:ems="10"
+        android:hint="@string/work_study_leisure"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/Insert_Destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Destination"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="18dp"
+        android:text="@string/destination_"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/insert_date_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/date_from"
+        android:layout_alignLeft="@+id/Insert_Destination"
+        android:layout_marginBottom="17dp"
+        android:text="@string/date_from"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/insert_date_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/date_to"
+        android:layout_alignLeft="@+id/insert_date_from"
+        android:text="@string/date_to"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/reason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/insert_date_to"
+        android:layout_below="@+id/date_to"
+        android:layout_marginTop="20dp"
+        android:text="@string/reason_for_trip_"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

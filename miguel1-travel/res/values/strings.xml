@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">miguel1-travel</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="claims">Claims</string>
+    <string name="_">+</string>
+    <string name="work_study_leisure">Work,study,leisure</string>
+    <string name="destination_">Destination:</string>
+    <string name="date_from">Date: FROM</string>
+    <string name="date_to">Date: TO</string>
+    <string name="reason_for_trip_">Reason for trip:</string>
+    <string name="date">date</string>
+    <string name="new_expense">New Expense</string>
+    <string name="category_">category:</string>
+    <string name="description_">description:</string>
+    <string name="currency_type_">currency type:</string>
+    <string name="add">add</string>
+    <string name="amount">amount</string>
+
+</resources>
